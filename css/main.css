@@ -1,0 +1,132 @@
+.clearfix::before,
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+body {
+	background-color: #f1f1f1;
+}
+.wrapper {
+	width: 90%;
+	margin: 20px auto;
+}
+
+/*header*/
+.header__top {
+	padding: 60px 0 30px 0;
+	text-align: center;
+	background-color: #fff;
+}
+.header__top__title {
+	font: 700 40px "Verdana", sans-serif;
+	color: #000;
+	margin-bottom: 20px;
+}
+
+.header__bottom {
+	margin-bottom: 20px;
+}
+
+.nav__list {
+	background-color: #333333;
+}
+.nav__item {
+	float: left;
+}
+.nav__item_last {
+	float: right;
+}
+.nav__link {
+	display: inline-block;
+	padding: 15px 15px;
+	font: 400 18px "Arial", sans-serif;
+	color: #fff;
+}
+.nav__link:hover {
+	background-color: #f1f1f1;
+	color: #000;
+}
+/*/header*/
+
+/*container*/
+.container {
+	margin-bottom: 20px;
+}
+/* common */
+.main-content {
+	width: 70%;
+	float: left;
+	margin-right: 1%;
+}
+.sidebar {
+	width: 29%;
+	float: right;
+}
+
+/*main-content*/
+.article-body {
+	padding: 35px 20px 30px 20px;
+	background-color: #fff;
+	margin-bottom: 20px;
+}
+.article-body__title {
+	font: 600 25px "Verdana", sans-serif;
+	color: #000;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+.article-body__date {
+	font: 500 14px "Arial", sans-serif;
+	color: #000;
+	margin-bottom: 20px;
+}
+.article-body__img {
+	width: 100%;
+	padding: 15px 15px;
+	background-color: #aaaaaa;
+	height: 250px;
+	margin-bottom: 20px;
+}
+.article-body__text {
+	font: 400 16px/1.5 "OpenSans", sans-serif;
+	color: #000;
+}
+/*/main-content*/
+
+/*aside*/
+
+.section-body {
+	background-color: #fff;
+	margin-bottom: 20px;
+	padding: 35px 20px 30px 20px;
+}
+.section-body__title {
+	font: 600 22px "Verdana", sans-serif;
+	margin-bottom: 15px;
+}
+.section-body__img {
+	width: 100%;
+	padding: 15px 15px;
+	background-color: #aaaaaa;
+	height: 100px;
+	margin-bottom: 20px;
+}
+.section-body__text {
+	font: 400 16px/1.5 "OpenSans", sans-serif;
+	color: #000;
+}
+/*/aside*/
+/*/container*/
+
+/*footer*/
+.footer-block {
+	background-color: #ddd;
+	height: 100px;
+}
+.footer-block__text {
+	text-align: center;
+	font: 600 25px "Verdana", sans-serif;
+	line-height: 100px;
+}
+/*/footer*/
